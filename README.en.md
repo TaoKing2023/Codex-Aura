@@ -1,8 +1,10 @@
 # Codex-Aura
 
+[简体中文](README.md#中文说明) · **English** · [Full English guide](docs/README.en.md)
+
 Adds **Codex** to Aura's model picker, uses the existing Codex login with **GPT-6.1-Sol / Ultra**, and saves real conversations through Codex's app-server protocol. Includes six read-only MCP tools and three skills for diagnostics, Blueprint inspection and Unreal workflows.
 
-[Chinese installation guide](docs/README.zh-CN.md) · [Release notes](docs/RELEASE_NOTES.zh-CN.md) · [MIT license](LICENSE)
+[Chinese installation guide](docs/README.zh-CN.md) · [Release notes: English / 中文](docs/RELEASE_NOTES.md) · [MIT license](LICENSE)
 
 ## Requirements
 
@@ -34,7 +36,7 @@ node .\codex-aura\scripts\install.mjs --config .\config.local.json
 
 The plugin process must inherit `CODEX_AURA_CONFIG`; alternatively use `%LOCALAPPDATA%\Aura\CodexAura\config.json`. Installer `--config` does not persist environment variables for desktop processes. Keep the returned checkpoint path. Backups default to `%LOCALAPPDATA%\Aura\CodexAura\backups` and can be relocated with `--backup-root`.
 
-Reload the existing router, open a new Codex chat or restart Codex to refresh tools, and refresh Aura's model menu. See the Chinese guide for checkpoint restoration and native Project association.
+Reload the existing router, open a new Codex chat or restart Codex to refresh tools, and refresh Aura's model menu. See the [full English guide](docs/README.en.md) for checkpoint restoration and native Project association.
 
 ## Save fix in 0.1.5
 

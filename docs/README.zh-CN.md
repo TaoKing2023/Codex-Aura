@@ -1,5 +1,7 @@
 # Codex-Aura
 
+**简体中文** · [English](README.en.md) · [首页 / Home](../README.md)
+
 让 Aura 的模型列表可以选择 **Codex**，通过已有 Codex 登录调用 **GPT-6.1-Sol / Ultra**，并在 Codex 中查看真实 Aura 对话。插件还提供 MCP 自检、权限诊断和 Unreal Engine 操作规范。
 
 当前版本：**0.1.5**。已在 **Windows、Aura 1.0.6、Node.js 24.14.1** 上验证。原生协议早期使用 Codex CLI 0.159.2 验证；0.1.5 的插件加载和两轮实际保存验证使用 0.159.0-alpha.12.1。其他版本的界面资源和协议可能变化，安装器会检查已知补丁位置；不匹配时停止，不强行修改。
