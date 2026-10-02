@@ -62,6 +62,8 @@ npm test
 
 让 Aura 的模型菜单选择 **Codex**，使用已有 Codex 登录调用 **GPT-6.1-Sol / Ultra**，并在 Codex 中查看真实对话。提供 MCP 自检、权限诊断、蓝图结构读取和 UE 操作技能。
 
+![Codex-Aura 中文架构图](codex-aura/assets/architecture.zh-CN.svg)
+
 ### 0.1.5
 
 修复新对话提示 **“This chat could not be saved”** 的问题。新 Codex 线程在首轮生成前可能尚未落盘；现在先保存真实线程标识并完成生成，再关联 Project、同步工作区和标题。可选同步共用 5 秒期限，失败时保留回答。云端保存回执仍必须校验成功，不能把失败当成已保存。

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540" role="img" aria-labelledby="title description">
+  <title id="title">Codex-Aura 中文架构图</title>
+  <desc id="description">Aura 通过本地路由和原生桥接保存 Codex 对话；Codex-Aura 插件提供自检、权限诊断及受保护的蓝图读取。修改前备份，问答、计划和受保护工程保持只读。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#50606b"/></marker></defs>
+  <rect width="1100" height="540" rx="18" fill="#f4f7f6"/>
+  <g font-family="Microsoft YaHei, Noto Sans SC, PingFang SC, Arial, sans-serif" fill="#16352f">
+    <text x="40" y="50" font-size="27" font-weight="bold">Codex-Aura：原生对话与按授权范围访问 UE</text>
+    <text x="40" y="82" font-size="17" fill="#50606b">GPT-6.1-Sol / Ultra · 使用已有 Codex 登录 · 本地集成插件</text>
+    <g fill="#fff" stroke="#a8bcb7" stroke-width="2">
+      <rect x="40" y="128" width="230" height="135" rx="12"/>
+      <rect x="320" y="128" width="350" height="135" rx="12"/>
+      <rect x="730" y="128" width="330" height="135" rx="12"/>
+      <rect x="40" y="327" width="290" height="155" rx="12"/>
+      <rect x="390" y="327" width="330" height="155" rx="12"/>
+      <rect x="780" y="327" width="280" height="155" rx="12"/>
+    </g>
+    <g font-size="20" font-weight="bold"><text x="60" y="162">Aura 模型：Codex</text><text x="340" y="162">本地路由 + 原生桥接</text><text x="750" y="162">Codex 原生对话</text><text x="60" y="363">Codex-Aura 插件</text><text x="410" y="363">受保护的蓝图读取</text><text x="800" y="363">现有 Aura UE MCP</text></g>
+    <g font-size="16" fill="#50606b">
+      <text x="60" y="197">Ask / Plan / Agent 模式</text><text x="60" y="225">文本与资产上下文</text>
+      <text x="340" y="197">工程权限闸门 + 每轮 MCP 范围</text><text x="340" y="225">公开 app-server · 如实标识来源</text>
+      <text x="750" y="197">用户 · 助手 · 工具活动</text><text x="750" y="225">UE5_Aura → 工程 → 对话</text>
+      <text x="60" y="396">自检 · 权限诊断</text><text x="60" y="423">对话读取 · UE 操作技能</text><text x="60" y="450">不全量批准工具</text>
+      <text x="410" y="396">校验路径、类型与参数</text><text x="410" y="423">先校验安全元数据，再读取节点图</text><text x="410" y="450">不编译、不打开材质窗口</text>
+      <text x="800" y="396">Inspector 与 Editor 工具</text><text x="800" y="423">连接传输与工具目录自检</text><text x="800" y="450">编辑仍遵守现有路由规则</text>
+    </g>
+    <g stroke="#50606b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"><path d="M270 196H316"/><path d="M670 196H726"/><path d="M330 407H386"/><path d="M720 407H776"/><path d="M184 327V292H895V266"/></g>
+    <text x="40" y="517" font-size="15" fill="#50606b">修改前备份受影响文件 · Ask / Plan 及受保护工程保持只读</text>
+  </g>
+</svg>
