@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-aura",
+  "version": "0.1.5",
+  "description": "Local Aura integration: MCP health checks, permission diagnostics, guarded Blueprint reads, Unreal workflows and native Codex conversations.",
+  "author": { "name": "TaoKing2023" },
+  "keywords": ["unreal-engine", "aura", "blueprint", "diagnostics"],
+  "extensions": {
+    "com.openai": {
+      "mcpServers": "./.mcp.json",
+      "skills": "./skills/",
+      "interface": {
+        "displayName": "Codex-Aura",
+        "shortDescription": "Aura diagnostics and Unreal workflows",
+        "longDescription": "Inspect Aura MCP readiness and permissions, safely read Blueprints, follow project backup rules and view Aura conversations in Codex.",
+        "developerName": "TaoKing2023",
+        "category": "Developer Tools",
+        "capabilities": ["Read", "Interactive"],
+        "defaultPrompt": ["检查 Aura MCP 和权限", "查看 Aura 对话", "解释这个蓝图"],
+        "brandColor": "#2F766D",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      }
+    }
+  }
+}

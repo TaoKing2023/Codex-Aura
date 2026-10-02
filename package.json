@@ -1,0 +1,14 @@
+{
+  "name": "codex-aura",
+  "version": "0.1.5",
+  "private": true,
+  "description": "Aura integration with Codex: diagnostics, guarded Blueprint reads and native conversations",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TaoKing2023/Codex-Aura.git"
+  },
+  "scripts": {
+    "test": "node --test codex-model/apply-codex-model.test.cjs codex-model/tests/AuraCodexBridge.test.mjs codex-model/tests/BlueprintReadProxy.test.mjs codex-aura/tests/app-server.test.mjs codex-aura/tests/config-diagnostics.test.mjs codex-aura/tests/mcp-server.test.mjs codex-aura/tests/install.test.mjs codex-aura/tests/conversation-project.test.mjs"
+  }
+}

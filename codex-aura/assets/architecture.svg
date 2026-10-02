@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540">
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#50606b"/></marker></defs>
+  <rect width="1100" height="540" rx="18" fill="#f4f7f6"/>
+  <g font-family="Arial, sans-serif" fill="#16352f">
+    <text x="40" y="50" font-size="27" font-weight="bold">Codex-Aura: native conversations and scoped Unreal access</text>
+    <text x="40" y="82" font-size="17" fill="#50606b">GPT-6.1-Sol / Ultra · existing Codex login · local integration plugin</text>
+    <g fill="#fff" stroke="#a8bcb7" stroke-width="2">
+      <rect x="40" y="128" width="230" height="135" rx="12"/>
+      <rect x="320" y="128" width="350" height="135" rx="12"/>
+      <rect x="730" y="128" width="330" height="135" rx="12"/>
+      <rect x="40" y="327" width="290" height="155" rx="12"/>
+      <rect x="390" y="327" width="330" height="155" rx="12"/>
+      <rect x="780" y="327" width="280" height="155" rx="12"/>
+    </g>
+    <g font-size="20" font-weight="bold"><text x="60" y="162">Aura model: Codex</text><text x="340" y="162">Local router + native bridge</text><text x="750" y="162">Codex native conversation</text><text x="60" y="363">Codex-Aura plugin</text><text x="410" y="363">Guarded Blueprint reads</text><text x="800" y="363">Existing Aura UE MCP</text></g>
+    <g font-size="16" fill="#50606b">
+      <text x="60" y="197">Ask / Plan / Agent</text><text x="60" y="225">Text + asset context</text>
+      <text x="340" y="197">Project guard + per-turn MCP scope</text><text x="340" y="225">Public app-server / truthful identity</text>
+      <text x="750" y="197">User · assistant · tool activity</text><text x="750" y="225">UE5_Aura → Project → conversation</text>
+      <text x="60" y="396">Doctor · permission diagnosis</text><text x="60" y="423">Conversation reader · UE skill</text><text x="60" y="450">No blanket tool approval</text>
+      <text x="410" y="396">Validate path, type and arguments</text><text x="410" y="423">Safe metadata before graph calls</text><text x="410" y="450">No compile or material-window reads</text>
+      <text x="800" y="396">Inspector and Editor</text><text x="800" y="423">Transport/catalog self-check</text><text x="800" y="450">Editing retains router rules</text>
+    </g>
+    <g stroke="#50606b" stroke-width="2.5" fill="none" marker-end="url(#arrow)"><path d="M270 196H316"/><path d="M670 196H726"/><path d="M330 407H386"/><path d="M720 407H776"/><path d="M184 327V292H895V266"/></g>
+    <text x="40" y="517" font-size="15" fill="#50606b">Back up affected files before mutation · Ask / Plan and guarded projects remain read-only</text>
+  </g>
+</svg>

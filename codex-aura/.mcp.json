@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "codex_aura": {
+      "command": "node",
+      "cwd": "./",
+      "args": ["./mcp/server.mjs"],
+      "startup_timeout_sec": 20,
+      "tool_timeout_sec": 300,
+      "env_vars": ["LOCALAPPDATA", "USERPROFILE", "CODEX_HOME", "CODEX_CLI_PATH", "CODEX_AURA_CONFIG", "CODEX_AURA_ROUTER_ROOT", "CODEX_AURA_TEST_PROJECT", "PATH", "SystemRoot"],
+      "tools": {
+        "aura_doctor": { "approval_mode": "approve" },
+        "aura_permissions": { "approval_mode": "approve" },
+        "aura_list_conversations": { "approval_mode": "approve" },
+        "aura_read_conversation": { "approval_mode": "approve" },
+        "aura_get_blueprint_meta": { "approval_mode": "approve" },
+        "aura_get_blueprint_graph": { "approval_mode": "approve" }
+      }
+    }
+  }
+}
